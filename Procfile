@@ -1,1 +1,1 @@
-web: guашnicorn  mysite:application -b 127.0.0.1:8000
+web: gunicorn  mysite:application -b 127.0.0.1:8000
