@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '+bo(a-px=wzb8%o03x!8oy)-81c653)s4esvid3nak%79l6pe@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'lit-sierra-27565.herokuapp.com']
 
