@@ -1,1 +1,1 @@
-web: gunicorn mysite.wsgi
+web: pipenv run python manage.py runserver $PORT
